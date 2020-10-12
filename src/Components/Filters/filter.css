@@ -1,0 +1,41 @@
+.filter-main {
+	width: 200px;
+}
+
+.capital {
+	text-transform: capitalize
+}
+
+.launch-button {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #c3de9a
+}
+
+.missonId {
+	font-weight: bold;
+}
+
+.btn-wrap {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+
+.selected {
+	background-color: #7cb901
+}
+
+@media (min-width: 56rem) {
+	.filter-main {
+		position: absolute;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.filter-main {
+		width: 80%;
+		margin: 0 auto;
+		padding: 20px;
+	}
+}
